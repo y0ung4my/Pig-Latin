@@ -21,3 +21,32 @@ function wordWithVowel(userInput) {
   return vowelArray.join(" ");
 }
 
+//   function wordWithConsonant(vowelArray) {
+//     for(i = 0; i < vowelArray.length; i++) {
+
+//     }
+//   }
+// }
+
+
+// REFACTORING VOWELS
+// function wordWithVowel(userInput) {
+//   let newText = userInput.toLowerCase();
+//   let textArray = newText.split(" ");
+//   const vowels = ["a", "e", "i", "o", "u"];
+//   const vowelArray = [];
+
+//   for(i = 0; i < textArray.length; i++) {
+//     for(j = 0; j < vowels.length; j++) {
+//       if(vowels[j] === textArray[i].charAt(0)) {
+//       vowelArray.push(textArray[i] + "way");
+//       console.log(textArray[i] + " is a vowel");
+//       break;
+//       } else {
+//       vowelArray.push(textArray[i]);
+//         console.log(textArray[i] + " is not a vowel");
+//       }
+//     }
+//     }
+// return vowelArray.join(" ");
+// }
